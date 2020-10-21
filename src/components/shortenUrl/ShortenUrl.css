@@ -1,0 +1,42 @@
+div.long-url {
+  box-shadow: 1px 1px 40px #bbb6b6;
+  display: flex;
+  flex-direction: row;
+  width: 47%;
+}
+
+#long-url__input {
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  border: 0;
+  color: #414141e0;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+
+div.long-url button {
+  border: 0;
+  background-color: #6b0dd9;
+  color: white;
+  font-size: 18px;
+  height: 60px;
+  padding: 0 15px;
+}
+
+.short-url {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  width: 47%;
+}
+
+.short-url p {
+  font-size: 20px;
+}
+
+.short-url a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #6b0dd9;
+}
