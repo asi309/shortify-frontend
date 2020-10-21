@@ -32,8 +32,8 @@ export default function Url() {
           <p>
             Short URL:
             <a
-              href={`http://localhost:8000/${shortendUrl}`}
-            >{`http://localhost:8000/${shortendUrl}`}</a>
+              href={`https://shortify-asi309.herokuapp.com/${shortendUrl}`}
+            >{`https://shortify-asi309.herokuapp.com/${shortendUrl}`}</a>
           </p>
         </div>
       )}
